@@ -1,0 +1,19 @@
+[project]
+name = "lisp-py"
+readme = "README.md"
+dynamic = ["version"]
+requires-python = ">=3.10"
+license = {file = "../LICENSE.txt"}
+authors = [{email = "contact@peacock0803sz.com"}, {name = "Peacock"}]
+urls = {homepage = "https://github.com/peacock0803sz/mini-lisp"}
+
+[project.optional-dependencies]
+dev = ["mypy", "black", "flake8", "pytest"]
+
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = ["py310"]
