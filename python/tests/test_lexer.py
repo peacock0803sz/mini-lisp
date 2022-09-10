@@ -8,7 +8,7 @@ testdata = [
     ("9 - 5", ("9", Tokens.MINUS, "5")),
     ("4 * 8", ("4", Tokens.TIMES, "8")),
     ("2 / 3", ("2", Tokens.DIV, "3")),
-    ("10 undef 42", ("10", "undef", "42"))
+    ("10 undef 42", ("10", "undef", "42")),
 ]
 
 
